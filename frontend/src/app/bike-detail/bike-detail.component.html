@@ -1,0 +1,9 @@
+<h1>Bike details - {{this.station.name}}</h1>
+
+  <ul *ngIf="this.bike">
+    <p>Name: {{this.bike.name}}</p>
+  <p> ID: {{this.bike._id}}</p>
+    <p>Km's: {{this.bike.kms}}</p>
+    <p>Description: {{this.bike.description}}</p>
+  <a  routerLink="/stations">Enrere</a>
+  </ul>
