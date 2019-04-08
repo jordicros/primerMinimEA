@@ -10,7 +10,7 @@
   Unused bikes //Té un petit bug
   <li *ngFor="let bike of this.unassignedBikes; let i = index">
     <p>{{bike.name}}</p>
-    <a (click) = "addBike(bike._id)" routerLink="/bike/detail">Afegir la bici</a>
+    <a (click) = "addBike(bike._id)" routerLink="/stations">Afegir la bici</a>
   </li>
   <a  routerLink="/stations">Enrere</a>
 </ul>
