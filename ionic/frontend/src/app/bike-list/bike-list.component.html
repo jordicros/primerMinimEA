@@ -1,8 +1,12 @@
-<ion-title>Bikes</ion-title>
 
+
+<ion-content>
+  <div>
+ <ion-title>Bikes</ion-title>
 <ion-list *ngIf="bikes">
   <ion-item *ngFor="let bike of bikes">
       <p>{{bike.name}} - {{bike.kms}} - {{bike.description}}</p>
   </ion-item>
 </ion-list>
-
+</div>
+</ion-content>
