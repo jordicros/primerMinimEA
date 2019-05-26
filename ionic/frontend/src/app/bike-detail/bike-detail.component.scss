@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    background: #eee;
+    padding: 2em;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    grid-template-columns: 60px auto;
+  }
+  ul li p {
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  ul li img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  ul li a {
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+  ul li a:hover {
+    background: whitesmoke;
+  }
+  .cta {
+    background: #70f;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Montserrat';
+  }

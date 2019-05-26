@@ -1,0 +1,8 @@
+<ion-title>Stations</ion-title>
+<ion-content>
+  <ion-list *ngIf="this.stations">
+    <ion-item *ngFor="let station of this.stations">
+        <p>{{station.name}} - {{station.state}}</p>
+        <ion-button (click) = "detalls(station)" routerLink="/station/detail">View</ion-button>
+    </ion-item>
+  </ion-list></ion-content>
