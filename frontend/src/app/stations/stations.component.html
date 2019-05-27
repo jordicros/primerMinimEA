@@ -1,8 +1,0 @@
-<h1>Stations</h1>
-
-  <ul *ngIf="this.stations">
-    <li *ngFor="let station of this.stations">
-        <p>{{station.name}} - {{station.state}}</p>
-        <a (click) = "detalls(station)" routerLink="/station/detail">View</a>
-    </li>
-  </ul>
