@@ -42,7 +42,7 @@ export class StationDetailComponent implements OnInit {
       
         this.unassignedBikes = this.reception;
       
-      
+      //Hauria de detectar les bicis que no estan a la llista .bikes, pero no ho fa be.
       /*for(var i=0; i<this.reception.length;i++){
         for(var j=0; j<this.bikes.length;j++){
           console.log(this.reception[i]._id, this.bikes[j]._id)

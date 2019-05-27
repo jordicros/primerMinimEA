@@ -1,4 +1,4 @@
-<ion-title>Bike details - {{this.station.name}}</ion-title>
+  <ion-content><ion-title><u>Bike details: {{this.bike.name}} - Current station: {{this.station.name}}</u></ion-title>
 
   <ion-list *ngIf="this.bike">
     <p>Name: {{this.bike.name}}</p>
@@ -7,12 +7,4 @@
     <p>Description: {{this.bike.description}}</p>
   <ion-item  routerLink="/stations">Enrere</ion-item>
   </ion-list>
-  <ion-title>Bike details - {{this.station.name}}</ion-title>
-
-  <ion-list *ngIf="this.bike">
-    <p>Name: {{this.bike.name}}</p>
-  <p> ID: {{this.bike._id}}</p>
-    <p>Km's: {{this.bike.kms}}</p>
-    <p>Description: {{this.bike.description}}</p>
-  <ion-item  routerLink="/stations">Enrere</ion-item>
-  </ion-list>
+</ion-content>
